@@ -14,7 +14,7 @@ public class Background {
 
     public Background() {
         try {
-            backgroundImage = ImageIO.read(new File("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\background.jpg"));
+            backgroundImage = ImageIO.read(new File("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\background.jpg"));
         } catch (IOException e) {
             System.out.println("Não foi possível carregar a imagem do inimigo");
             e.printStackTrace();

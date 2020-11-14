@@ -84,7 +84,7 @@ public class MainMenu extends JPanel implements ActionListener{
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        ImageIcon img = new ImageIcon("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\background.jpg");
+        ImageIcon img = new ImageIcon("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\background.jpg");
         g.drawImage(img.getImage(), 0, 0, this.getWidth(), this.getHeight(), null);
         g.setFont(new Font("TimesRoman", Font.PLAIN, 50));
         g.setColor(Color.white);
@@ -95,19 +95,19 @@ public class MainMenu extends JPanel implements ActionListener{
     private void naveSelection(Graphics g) {
         switch (x) {
             case -2:
-                imagemNave = naveSelect("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\player_ship_blue.png");
+                imagemNave = naveSelect("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\player_ship_blue.png");
                 break;
             case -1:
-                imagemNave = naveSelect("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\player_ship_orange.png");
+                imagemNave = naveSelect("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\player_ship_orange.png");
                 break;
             case 0:
-                imagemNave = naveSelect("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\player_ship_normal.png");
+                imagemNave = naveSelect("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\player_ship_normal.png");
                 break;
             case 1:
-                imagemNave = naveSelect("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\player_ship_pink.png");
+                imagemNave = naveSelect("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\player_ship_pink.png");
                 break;
             case 2:
-                imagemNave = naveSelect("D:\\francisco\\SpaceInvaders-master\\src\\localPlayerIMG\\player_ship_yellow.png");
+                imagemNave = naveSelect("D:\\francisco\\SpaceGameVersion2\\localPlayerIMG\\player_ship_yellow.png");
                 break;
             default:
         }
